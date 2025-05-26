@@ -141,22 +141,23 @@ const Hero = () => {
         </div>
 
         <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
-          G<b>A</b>MING
+          D<b>E</b>SINGER
         </h1>
 
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
             <h1 className="special-font hero-heading text-blue-100">
-              redefi<b>n</b>e
+              {/* redefi<b>n</b>e */}
+              Design that Dares <b>to Be Different</b>
             </h1>
 
             <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
-              Enter the Metagame Layer <br /> Unleash the Play Economy
+              Hi, I’m Ogar Emmanuel a playful pixel-pusher turning boring interfaces into bold experiences.<br />From quirky branding to buttery-smooth UX, I design with personality and purpose.
             </p>
 
             <Button
               id="watch-trailer"
-              title="Watch trailer"
+              title="Let’s Make Magic"
               leftIcon={<TiLocationArrow />}
               containerClass="bg-yellow-300 flex-center gap-1"
             />
@@ -165,7 +166,7 @@ const Hero = () => {
       </div>
 
       <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
-        G<b>A</b>MING
+        D<b>E</b>SING
       </h1>
     </div>
   );
