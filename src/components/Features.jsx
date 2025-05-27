@@ -125,13 +125,14 @@ const Features = () => (
         />
       </BentoTilt>
 
-      <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
+      <div className="grid h-[180vh] w-full grid-cols-2 grid-rows-4 gap-7">
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
             src="videos/feature-2.mp4"
             title={
               <>
-                zig<b>m</b>a
+              Cl<b>iq</b>mit
+
               </>
             }
             description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
@@ -144,7 +145,7 @@ const Features = () => (
             src="videos/feature-3.mp4"
             title={
               <>
-                n<b>e</b>xus
+                Osuji <b>& </b>Smith
               </>
             }
             description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
@@ -157,7 +158,33 @@ const Features = () => (
             src="videos/feature-4.mp4"
             title={
               <>
-                az<b>u</b>l
+                L<b>E</b>X
+              </>
+            }
+            description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
+            isComingSoon
+          />
+        </BentoTilt>
+
+        <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
+          <BentoCard
+            src="videos/feature-3.mp4"
+            title={
+              <>
+                Osuji <b>& </b>Smith
+              </>
+            }
+            description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+            isComingSoon
+          />
+        </BentoTilt>
+
+        <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoCard
+            src="videos/feature-4.mp4"
+            title={
+              <>
+                L<b>E</b>X
               </>
             }
             description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."

@@ -2,6 +2,8 @@ import About from "./components/About";
 import Hero from "./components/Hero";
 import NavBar from "./components/Navbar";
 import Features from "./components/Features";
+import Books from "./components/Books";
+import Tory from "./components/BookFormatting";
 import Story from "./components/Story";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -13,6 +15,7 @@ function App() {
       <Hero />
       <About />
       <Features />
+      <Tory />
       <Story />
       <Contact />
       <Footer />
