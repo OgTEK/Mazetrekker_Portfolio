@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
+// import { Link } from 'react-router-dom';
 
 import Button from "./Button";
 
@@ -90,6 +91,7 @@ const NavBar = () => {
           {/* Navigation Links and Audio Button */}
           <div className="flex h-full items-center">
             <div className="hidden md:block">
+
               {navItems.map((item, index) => (
                 <a
                   key={index}
@@ -99,6 +101,31 @@ const NavBar = () => {
                   {item}
                 </a>
               ))}
+
+{/* {navItems.map((item, index) => {
+  const lower = item.toLowerCase();
+  const isRoute = lower === 'portfolio' || lower === 'books'; // 👈 your page-based items
+
+  return isRoute ? (
+    <Link
+      key={index}
+      to={`/${lower}`}
+      className="nav-hover-btn"
+    >
+      {item}
+    </Link>
+  ) : (
+    <a
+      key={index}
+      href={`#${lower}`}
+      className="nav-hover-btn"
+    >
+      {item}
+    </a>
+  );
+})} */}
+
+
             </div>
             <button
               onClick={toggleAudioIndicator}
