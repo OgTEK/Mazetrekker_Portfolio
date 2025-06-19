@@ -135,7 +135,7 @@ const Features = () => (
 
               </>
             }
-            description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+            description="Discover and host events that inspire—whether it's a concert, conference, or community meetup."
             isComingSoon
           />
         </BentoTilt>
